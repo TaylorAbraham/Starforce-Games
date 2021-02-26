@@ -124,7 +124,7 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <a href="localhost:8080/avians" className={classes.linkButton}>
+                  <a href="/avians" className={classes.linkButton}>
                     <Button variant="contained" size="small" color="primary" target="_blank" rel="noreferrer" className={classes.linkButton}>
                       View <OpenInNewIcon className={classes.rightIcon} />
                     </Button>
