@@ -14,7 +14,9 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import StarBorder from '@material-ui/icons/StarBorder';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
-import ButtonUpgradeLogo from './img/button-upgrade.png';
+import AviansImage from './img/attack-of-the-avians.png';
+import CorneriaImage from './img/chaos-in-corneria.png';
+import ButtonUpgradeImage from './img/button-upgrade.png';
 
 function Copyright() {
   return (
@@ -109,7 +111,7 @@ export default function Album() {
               <Card className={classes.card}>
                 <CardMedia
                   className={classes.cardMedia}
-                  image={ButtonUpgradeLogo}
+                  image={AviansImage}
                   title="Attack of the Avians"
                 />
                 <CardContent className={classes.cardContent}>
@@ -136,7 +138,27 @@ export default function Album() {
               <Card className={classes.card}>
                 <CardMedia
                   className={classes.cardMedia}
-                  image={ButtonUpgradeLogo}
+                  image={CorneriaImage}
+                  title="Chaos in Corneria"
+                />
+                <CardContent className={classes.cardContent}>
+                  <Typography variant="h5" component="h2">
+                    Chaos in Corneria
+                  </Typography>
+                  <Typography gutterBottom variant="h6" component="h6">
+                    June 2014
+                  </Typography>
+                  <Typography>
+                    A simple Java trading card game I made for my high school computing course. Watching my friends play against each other on my game sparked my interest in making multiplayer content.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image={ButtonUpgradeImage}
                   title="Button Upgrade"
                 />
                 <CardContent className={classes.cardContent}>
