@@ -128,7 +128,7 @@ export default function Album() {
                 <CardActions>
                   <a href="/avians" className={classes.linkButton}>
                     <Button variant="contained" size="small" color="primary" target="_blank" rel="noreferrer" className={classes.linkButton}>
-                      View <OpenInNewIcon className={classes.rightIcon} />
+                      Play <OpenInNewIcon className={classes.rightIcon} />
                     </Button>
                   </a>
                 </CardActions>
@@ -175,7 +175,7 @@ export default function Album() {
                 <CardActions>
                   <a href="https://www.kongregate.com/games/olimar72/button-upgrade" target="_blank" rel="noreferrer" className={classes.linkButton}>
                     <Button variant="contained" size="small" color="primary">
-                      View <OpenInNewIcon className={classes.rightIcon} />
+                      Play <OpenInNewIcon className={classes.rightIcon} />
                     </Button>
                   </a>
                 </CardActions>
